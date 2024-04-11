@@ -1,0 +1,58 @@
+main {
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.formulario {
+    justify-content: center;
+    display: flex;
+}
+
+.progress {
+    display: flex;
+    justify-content: center;
+}
+
+.completed {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+    width: 700px;
+    margin: auto;
+    overflow-wrap: break-word;
+
+}
+
+ul li {
+    
+    flex-direction: row;
+    display: flex;
+    padding-left: 0;
+    position: relative;
+}
+
+
+
+.botaoRemover {
+    position: absolute;
+    right: 0;
+}
+
+h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
